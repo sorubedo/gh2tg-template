@@ -15,4 +15,4 @@ Follow these steps to deploy. The template monitors commits, releases, and the `
 4. Edit [`config.json`](config.json) as needed. See the [GH2TG configuration documentation](https://github.com/sorubedo/gh2tg#configuration) for the format.
 5. Open **Actions → Run GH2TG → Run workflow** to run it once manually.
 
-The workflow runs every two hours. The first run only establishes the `state.json` baseline; later runs send new updates. The workflow commits `state.json` automatically, so do not add it to `.gitignore`.
+The workflow runs every two hours. You do not need to download, create, or upload `state.json` manually: the first run creates it, and the workflow maintains and commits it automatically. Do not add it to `.gitignore`.
