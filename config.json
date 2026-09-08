@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "repositories": {
+    "sorubedo/gh2tg": {
+      "topic_name": "gh2tg",
+      "commits": {
+        "branches": ["main"]
+      },
+      "releases": {
+        "include_prereleases": true,
+        "asset_regex": ".*"
+      },
+      "actions": {
+        "workflows": [
+          {
+            "workflow_file": ".github/workflows/publish-images.yml",
+            "branches": ["main"],
+            "conclusions": ["success"],
+            "artifact_regex": ".*"
+          }
+        ]
+      }
+    }
+  }
+}

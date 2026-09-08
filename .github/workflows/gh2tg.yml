@@ -1,0 +1,50 @@
+name: Run GH2TG
+
+on:
+  schedule:
+    - cron: "17 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gh2tg-state
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Run GH2TG
+        env:
+          GH2TG_BOT_TOKEN: ${{ secrets.GH2TG_BOT_TOKEN }}
+          GH2TG_GROUP_ID: ${{ secrets.GH2TG_GROUP_ID }}
+          GH2TG_GITHUB_TOKEN: ${{ secrets.GH2TG_GITHUB_TOKEN }}
+          LANG: zh
+        run: |
+          docker run --rm \
+            --env GH2TG_BOT_TOKEN \
+            --env GH2TG_GROUP_ID \
+            --env GH2TG_GITHUB_TOKEN \
+            --env LANG \
+            --volume "$GITHUB_WORKSPACE:/data" \
+            ghcr.io/sorubedo/gh2tg:latest
+
+      - name: Save state
+        shell: bash
+        run: |
+          git add state.json
+          if git diff --cached --quiet -- state.json; then
+            echo "state.json is unchanged"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update GH2TG state" -- state.json
+          git push
