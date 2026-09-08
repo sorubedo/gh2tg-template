@@ -44,7 +44,7 @@
                   ],
                   "artifact_scope": ".*",
                   "workflow_run_etags": {
-                    "success": "\"b8dd7924fe59c7cf56aba98bc786a7b480010f413c96fcea0c92fec2a7c391f9\""
+                    "success": "\"d74ea4bc212d04a5bb1da670aed5470238ea4b6619a13023a67c32764da84dd0\""
                   },
                   "artifact_etag": "\"457d4d6c357732290b9d98f08e4188969d71c244d25312763c2a5c7a607c9ad2\"",
                   "artifact_page_count": 1
