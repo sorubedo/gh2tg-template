@@ -1,0 +1,59 @@
+{
+  "schema_version": 4,
+  "group_id": -1004323087424,
+  "repository_ids": {
+    "sorubedo/gh2tg": 1361735399
+  },
+  "repositories": {
+    "1361735399": {
+      "message_thread_id": 5,
+      "topic_name": "gh2tg",
+      "cursors": {
+        "commits": {
+          "branches": {
+            "main": "1e01c97872b1dad56e74b5004807cdcb7d4daceb"
+          }
+        },
+        "releases": {
+          "selector_scope": {
+            "kind": "latest_including_prereleases"
+          },
+          "release_id": null,
+          "updated_at": null,
+          "etag": "\"7923cf38318e7ef315d8fece74592537e4f7fd849d12e0471cb617b9ba025e54\""
+        },
+        "actions": {
+          "workflows": {
+            ".github/workflows/publish-images.yml": {
+              "branches": {
+                "main": {
+                  "conclusion_scope": [
+                    "success"
+                  ],
+                  "run": {
+                    "id": 34269409661,
+                    "name": "Publish container images",
+                    "title": "chore: rename project to gh2tg",
+                    "conclusion": "success",
+                    "created_at": "2026-09-08T19:30:57Z",
+                    "html_url": "https://github.com/sorubedo/gh2tg/actions/runs/34269409661"
+                  },
+                  "artifact_ids": [
+                    10073251294,
+                    10073252019
+                  ],
+                  "artifact_scope": ".*",
+                  "workflow_run_etags": {
+                    "success": "\"b8dd7924fe59c7cf56aba98bc786a7b480010f413c96fcea0c92fec2a7c391f9\""
+                  },
+                  "artifact_etag": "\"457d4d6c357732290b9d98f08e4188969d71c244d25312763c2a5c7a607c9ad2\"",
+                  "artifact_page_count": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
