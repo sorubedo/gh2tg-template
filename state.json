@@ -11,16 +11,16 @@
       "cursors": {
         "commits": {
           "branches": {
-            "main": "f292c7c97614f232f1d1e6a325bc7988896e8ae2"
+            "main": "005bf854d4e3a5ef2c36e59597d2f3da50c20822"
           }
         },
         "releases": {
           "selector_scope": {
             "kind": "latest_including_prereleases"
           },
-          "release_id": null,
-          "updated_at": null,
-          "etag": "\"7923cf38318e7ef315d8fece74592537e4f7fd849d12e0471cb617b9ba025e54\""
+          "release_id": 385221585,
+          "updated_at": "2026-09-09T04:16:45Z",
+          "etag": "\"8738f308f94ef0930b002af65659a1c1720ffe00f6bde80ef2dd43c60e868d8d\""
         },
         "actions": {
           "workflows": {
@@ -31,22 +31,22 @@
                     "success"
                   ],
                   "run": {
-                    "id": 34269409661,
+                    "id": 34309972536,
                     "name": "Publish container images",
-                    "title": "chore: rename project to gh2tg",
+                    "title": "release: v0.2.1",
                     "conclusion": "success",
-                    "created_at": "2026-09-08T19:30:57Z",
-                    "html_url": "https://github.com/sorubedo/gh2tg/actions/runs/34269409661"
+                    "created_at": "2026-09-09T04:11:09Z",
+                    "html_url": "https://github.com/sorubedo/gh2tg/actions/runs/34309972536"
                   },
                   "artifact_ids": [
-                    10073251294,
-                    10073252019
+                    10088043987,
+                    10088044690
                   ],
                   "artifact_scope": ".*",
                   "workflow_run_etags": {
-                    "success": "\"d74ea4bc212d04a5bb1da670aed5470238ea4b6619a13023a67c32764da84dd0\""
+                    "success": "\"28dbfd781eea7a03909a09b0fcc5bf0ae5285e16a69649f0d4992dc48f00343c\""
                   },
-                  "artifact_etag": "\"457d4d6c357732290b9d98f08e4188969d71c244d25312763c2a5c7a607c9ad2\"",
+                  "artifact_etag": "\"64dc3347eb427cf04199459d3d369ba14472084212a63f2fbc15e70441103fc0\"",
                   "artifact_page_count": 1
                 }
               }
