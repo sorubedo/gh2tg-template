@@ -18,4 +18,4 @@
 5. 按需编辑 [`config.json`](config.json)。格式说明见 [GH2TG 配置文档](https://github.com/sorubedo/gh2tg#configuration)。
 6. 打开 **Actions → Run GH2TG → Run workflow** 手动执行一次。
 
-之后工作流每两小时执行一次。无需手动下载、创建或上传 `state.json`：首次运行会自动生成，之后由工作流自动维护并提交。不要把它加入 `.gitignore`。
+之后工作流每小时执行一次。无需手动下载、创建或上传 `state.json`：首次运行会自动生成，之后由工作流自动维护并提交。不要把它加入 `.gitignore`。
