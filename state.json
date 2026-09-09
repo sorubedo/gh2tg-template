@@ -2,9 +2,30 @@
   "schema_version": 4,
   "group_id": -1004323087424,
   "repository_ids": {
+    "SagerNet/sing-box": 509091576,
     "sorubedo/gh2tg": 1361735399
   },
   "repositories": {
+    "509091576": {
+      "message_thread_id": 30,
+      "topic_name": "sing-box",
+      "cursors": {
+        "commits": {
+          "branches": {}
+        },
+        "releases": {
+          "selector_scope": {
+            "kind": "latest_including_prereleases"
+          },
+          "release_id": 383148374,
+          "updated_at": "2026-09-05T06:21:10Z",
+          "etag": "\"f54c895fcd5a26bdafa7916479fa83a6bc8d5fdbeaf01680ecd26cf3daefd75e\""
+        },
+        "actions": {
+          "workflows": {}
+        }
+      }
+    },
     "1361735399": {
       "message_thread_id": 5,
       "topic_name": "gh2tg",
