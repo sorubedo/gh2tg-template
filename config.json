@@ -20,6 +20,13 @@
           }
         ]
       }
+    },
+    "SagerNet/sing-box": {
+      "topic_name": "sing-box",
+      "releases": {
+        "include_prereleases": true,
+        "asset_regex": "^SFA-.*\.apk$"
+      }
     }
   }
 }
