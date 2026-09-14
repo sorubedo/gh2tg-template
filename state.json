@@ -17,9 +17,9 @@
           "selector_scope": {
             "kind": "latest_including_prereleases"
           },
-          "release_id": 383148374,
-          "updated_at": "2026-09-05T06:21:10Z",
-          "etag": "\"d00fba77f68ddeb6b9809660e49cf83dbe3e988211c606633b57f9dc80f572a4\""
+          "release_id": 387910625,
+          "updated_at": "2026-09-13T14:02:08Z",
+          "etag": "\"979834b5fa06c408c4b92e1ba22a341f6d8f67a149d127230b2bc6e6f8bf0cdc\""
         },
         "actions": {
           "workflows": {}
@@ -32,16 +32,16 @@
       "cursors": {
         "commits": {
           "branches": {
-            "main": "c67b1cf2e751af0f692ff3fd859a2330a1c5117a"
+            "main": "78713f895d1aaf789d4c827c04ad64f206d43632"
           }
         },
         "releases": {
           "selector_scope": {
             "kind": "latest_including_prereleases"
           },
-          "release_id": 386168839,
-          "updated_at": "2026-09-10T09:59:02Z",
-          "etag": "\"bec88cc31a3f17bd0518504755dc9ed5a65dfc8ca492daddf4eea3d3d9c82598\""
+          "release_id": 388220120,
+          "updated_at": "2026-09-14T07:46:29Z",
+          "etag": "\"12dbbd54fe83f7339b6c93694ba7080db88866f515c6fb4282f58d6b94777403\""
         },
         "actions": {
           "workflows": {
@@ -52,22 +52,22 @@
                     "success"
                   ],
                   "run": {
-                    "id": 34462850345,
+                    "id": 34819048135,
                     "name": "Publish container images",
-                    "title": "release: v0.2.2",
+                    "title": "fix: skip oversized Telegram attachments",
                     "conclusion": "success",
-                    "created_at": "2026-09-10T09:50:26Z",
-                    "html_url": "https://github.com/sorubedo/gh2tg/actions/runs/34462850345"
+                    "created_at": "2026-09-14T07:41:47Z",
+                    "html_url": "https://github.com/sorubedo/gh2tg/actions/runs/34819048135"
                   },
                   "artifact_ids": [
-                    10146324567,
-                    10146325217
+                    10337323130,
+                    10337532358
                   ],
                   "artifact_scope": ".*",
                   "workflow_run_etags": {
-                    "success": "\"2d674e950fda8d3cb8928b806f7dcc1591a61eb1670d1bfee6e04b469787b9f8\""
+                    "success": "\"f1f19864567a32765beaff5ff8a4537a5c416254bd54e4375029e1029df4cdcf\""
                   },
-                  "artifact_etag": "\"40498d683946ba1c272e6467ecf39ae8ec64c2f0daec9c1ca6ee0d084d1116b8\"",
+                  "artifact_etag": "\"e3e0b6f6c93cf5d52413054af2369d8ea0c0e63b62a7dcb7598d8546a485ca06\"",
                   "artifact_page_count": 1
                 }
               }
