@@ -17,9 +17,9 @@
           "selector_scope": {
             "kind": "latest_including_prereleases"
           },
-          "release_id": 395569527,
-          "updated_at": "2026-09-24T11:46:28Z",
-          "etag": "\"f81c4eaca2286f59f9676379c1156bf0b42b7c7328cdf348ae2f36156de50b49\""
+          "release_id": 397234855,
+          "updated_at": "2026-09-26T15:59:42Z",
+          "etag": "\"5c487a058e439350eb6e0f267b466750fb0d299334915474e1107ce83d648dc4\""
         },
         "actions": {
           "workflows": {}
